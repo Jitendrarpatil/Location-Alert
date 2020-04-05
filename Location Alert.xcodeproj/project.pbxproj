@@ -101,6 +101,7 @@
 		D4278D272439B248005FB86D /* Location Alert */ = {
 			isa = PBXGroup;
 			children = (
+				D4278D5C2439B2CB005FB86D /* Features */,
 				D4278D282439B248005FB86D /* AppDelegate.swift */,
 				D4278D2A2439B248005FB86D /* SceneDelegate.swift */,
 				D4278D2C2439B248005FB86D /* ViewController.swift */,
@@ -129,6 +130,45 @@
 				D4278D4F2439B249005FB86D /* Info.plist */,
 			);
 			path = "Location AlertUITests";
+			sourceTree = "<group>";
+		};
+		D4278D5B2439B2BE005FB86D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4278D5C2439B2CB005FB86D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D4278D5D2439B2D4005FB86D /* Locations List */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D4278D5D2439B2D4005FB86D /* Locations List */ = {
+			isa = PBXGroup;
+			children = (
+				D4278D5F2439B2F8005FB86D /* Model */,
+				D4278D5E2439B2EA005FB86D /* View Model */,
+				D4278D5B2439B2BE005FB86D /* View */,
+			);
+			path = "Locations List";
+			sourceTree = "<group>";
+		};
+		D4278D5E2439B2EA005FB86D /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		D4278D5F2439B2F8005FB86D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
